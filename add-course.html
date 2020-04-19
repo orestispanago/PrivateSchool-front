@@ -69,16 +69,28 @@
                 </div>
             </fieldset>
             <div class="form-group row">
-                <label for="submissiondate" class="col-sm-2 col-form-label">Submission date</label>
+                <label for="startdate" class="col-sm-2 col-form-label">Start date</label>
                 <div class="col-sm-10">
-                    <input id="datepicker" placeholder="Submission date" />
+                    <input id="startdatepicker" placeholder="Start date" />
                     <script>
-                        $('#datepicker').datepicker({
+                        $('#startdatepicker').datepicker({
                             uiLibrary: 'bootstrap'
                         });
                     </script>
                 </div>
             </div>
+            <div class="form-group row">
+                <label for="enddate" class="col-sm-2 col-form-label">End date</label>
+                <div class="col-sm-10">
+                    <input id="enddatepicker" placeholder="End date" />
+                    <script>
+                        $('#enddatepicker').datepicker({
+                            uiLibrary: 'bootstrap'
+                        });
+                    </script>
+                </div>
+            </div>
+
             <div class="form-group row">
                 <div class="col-sm-10">
                     <button type="submit" class="btn btn-primary">Add</button>
