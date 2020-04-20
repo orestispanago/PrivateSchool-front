@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>
+        PrivateSchool-courses
+    </title>
+</head>
+
+<body>
+    <script>
+        $(function () {
+            $("#includedContent").load("nav.html");
+        });
+    </script>
+    <div id="includedContent"></div>
+    <h1>Courses</h1>
+    <div class="container">
+        <table class="table table-hover">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Stream</th>
+                    <th>Type</th>
+                    <th>Start date</th>
+                    <th>End date</th>
+                    <th class="text-right"> Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Math</td>
+                    <td>Basics</td>
+                    <td>Java</td>
+                    <td>Full-time</td>
+                    <td>12/12/1999</td>
+                    <td>12/12/2000</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>Advanced concepts</td>
+                    <td>Java</td>
+                    <td>Full-time</td>
+                    <td>01/01/2000</td>
+                    <td>01/02/2000</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>Elements, bonds, reactions</td>
+                    <td>Java</td>
+                    <td>Full-time</td>
+                    <td>02/02/2001</td>
+                    <td>02/04/2001</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+        <a href="add-course.html" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus"></span> Add
+        </a>
+    </div>
+</body>
+
+</html>

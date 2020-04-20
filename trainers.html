@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>
+        PrivateSchool-trainers
+    </title>
+</head>
+
+<body>
+    <script>
+        $(function () {
+            $("#includedContent").load("nav.html");
+        });
+    </script>
+    <div id="includedContent"></div>
+    <h1>Trainers</h1>
+    <div class="container">
+        <table class="table table-hover">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Subject</th>
+                    <th class="text-right"> Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Boe</td>
+                    <td>Math</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Suzie</td>
+                    <td>Q</td>
+                    <td>Greek</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>Physics</td>
+                    <td align="right">
+                        <a href="#" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+        <a href="add-trainer.html" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus"></span> Add
+        </a>
+    </div>
+</body>
+
+</html>
