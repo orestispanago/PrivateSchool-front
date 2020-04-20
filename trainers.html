@@ -5,9 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>
         PrivateSchool-trainers
@@ -15,11 +16,8 @@
 </head>
 
 <body>
-    <script>
-        $(function () {
-            $("#includedContent").load("nav.html");
-        });
-    </script>
+    <div class="container-fluid" id="navbarid">
+    </div>
     <div id="includedContent"></div>
     <h1>Trainers</h1>
     <div class="container">
@@ -39,10 +37,10 @@
                     <td>Math</td>
                     <td align="right">
                         <a href="#" class="btn btn-warning">
-                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                            <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
-                            <span class="glyphicon glyphicon-trash"></span> Delete
+                            <span class="fa fa-trash"></span> Delete
                         </a>
                     </td>
                 </tr>
@@ -52,10 +50,10 @@
                     <td>Greek</td>
                     <td align="right">
                         <a href="#" class="btn btn-warning">
-                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                            <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
-                            <span class="glyphicon glyphicon-trash"></span> Delete
+                            <span class="fa fa-trash"></span> Delete
                         </a>
                     </td>
                 </tr>
@@ -65,10 +63,10 @@
                     <td>Physics</td>
                     <td align="right">
                         <a href="#" class="btn btn-warning">
-                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                            <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
-                            <span class="glyphicon glyphicon-trash"></span> Delete
+                            <span class="fa fa-trash"></span> Delete
                         </a>
                     </td>
                 </tr>
@@ -76,9 +74,15 @@
 
         </table>
         <a href="add-trainer.html" class="btn btn-success">
-            <span class="glyphicon glyphicon-plus"></span> Add
+            <span class="fa fa-plus"></span> Add
         </a>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#navbarid").load("nav.html");
+        });
+    </script>
 </body>
 
 </html>
