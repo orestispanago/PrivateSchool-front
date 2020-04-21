@@ -44,13 +44,14 @@
         <form>
             <div class="form-group row">
                 <div class="col-sm-10">
-                    <button type="submit" class="btn btn-success" href="trainers-per-course.html"
-                        onclick="onlyLettersFirstName(), onlyLettersLastName()">Add</button>
+                    <button type="submit" class="btn btn-success"
+                        onclick="onlyLetters('inputfirstname');onlyLetters('inputlastname');onlyLetters('inputsubject');">Add</button>
                 </div>
             </div>
         </form>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="checks.js"></script>
     <script>
         $(function () {
             $("#navbarid").load("nav.html");
