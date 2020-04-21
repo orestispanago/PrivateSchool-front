@@ -11,43 +11,15 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>
-        Assignments-per-student-per-course
+        PrivateSchool-assignments
     </title>
 </head>
 
 <body>
     <div class="container-fluid" id="navbarid"></div>
     <div id="includedContent"></div>
-    <h1>Assignments per student per course</h1>
+    <h1>Assignments</h1>
     <div class="container">
-        <form>
-            <div class="form-group row">
-                <label for="inputsubject" class="col-sm-2 col-form-label">Select course</label>
-                <div class="col-sm-10">
-                    <select id="trainerpercourse" name="trainer-per-course">
-                        <optgroup label="Natural sciences">
-                            <option>Math - basics - full-time </option>
-                            <option>Physics - advanded concepts - full-time</option>
-                            <option>Chemistry - Elements,bonds,reactions - full-time</option>
-                        </optgroup>
-                        <optgroup label="Humanitarian sciences">
-                            <option>Greek - Basics - full-time</option>
-                            <option>Latin - Advanced - part-time</option>
-                        </optgroup>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="inputsubject" class="col-sm-2 col-form-label">Select student</label>
-                <div class="col-sm-10">
-                    <select id="trainerpercourse" name="trainer-per-course">
-                        <option>John Doe, 12/12/1999</option>
-                        <option>Mary Moe, 01/01/2000</option>
-                        <option>July Dooley, 02/02/2001</option>
-                    </select>
-                </div>
-            </div>
-        </form>
         <table class="table table-hover">
             <thead class="bg-primary text-white">
                 <tr>
@@ -63,7 +35,7 @@
                     <td>First assignment</td>
                     <td>12/12/1999</td>
                     <td align="right">
-                        <a href="edit-assignment-per-student-per-course.html" class="btn btn-warning">
+                        <a href="edit.html" class="btn btn-warning">
                             <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
@@ -76,7 +48,7 @@
                     <td>An easy one</td>
                     <td>01/01/2000</td>
                     <td align="right">
-                        <a href="edit-assignment-per-student-per-course.html" class="btn btn-warning">
+                        <a href="edit.html" class="btn btn-warning">
                             <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
@@ -89,7 +61,7 @@
                     <td>A hard one</td>
                     <td>02/02/2001</td>
                     <td align="right">
-                        <a href="edit-assignment-per-student-per-course.html" class="btn btn-warning">
+                        <a href="edit.html" class="btn btn-warning">
                             <span class="fa fa-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-danger">
@@ -100,14 +72,14 @@
             </tbody>
 
         </table>
-        <a href="add-assignment-to-course.html" class="btn btn-success">
+        <a href="add.html" class="btn btn-success">
             <span class="fa fa-plus"></span> Add
         </a>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(function () {
-            $("#navbarid").load("nav.html");
+            $("#navbarid").load("../nav.html");
         });
     </script>
 </body>

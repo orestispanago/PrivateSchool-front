@@ -9,18 +9,6 @@ function onlyLetters(str) {
     }
 }
 
-function onlyLettersAnsSpaces(str) {
-    var lettersAndSpaces = /^[a-zA-Z\s]*$/;
-    element = document.getElementById(str)
-    if (element.value.match(lettersAndSpaces)) {
-        return true;
-    }
-    else {
-        alert(element.placeholder + " must contain only letters and spaces.");
-    }
-}
-
-
 
 function validBirth(date) {
     var eighteenYearsAgo = moment().subtract(18, "years");
